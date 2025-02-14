@@ -1,0 +1,7 @@
+newspring/src/assets/video1.mp4 filter=lfs diff=lfs merge=lfs -text
+newspring/src/assets/video2.mp4 filter=lfs diff=lfs merge=lfs -text
+newspring/src/assets/peerPressure.mp4 filter=lfs diff=lfs merge=lfs -text
+newspring/src/assets/scienceFaith.mp4 filter=lfs diff=lfs merge=lfs -text
+newspring/src/assets/purpose.mp4 filter=lfs diff=lfs merge=lfs -text
+newspring/src/assets/identity.mp4 filter=lfs diff=lfs merge=lfs -text
+newspring/src/assets/temptation.mp4 filter=lfs diff=lfs merge=lfs -text
