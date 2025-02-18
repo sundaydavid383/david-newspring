@@ -11,6 +11,7 @@ import WorshipNight from "./pages/worshipNight/WorshipNight";
 import BibleStudy from "./pages/bibleStudy/BibleStudy";
 import ReadBlog from "./pages/readBlog/ReadBlog";
 import BlogGrid from "./pages/bloggrid/BlogGrid";
+import NoRoute from "./pages/noRoute/NoRoute";
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
           element={<ReadBlog setActive={setActive} />}
         />
         <Route path="/bloggrid/:categoryIndex" element={<BlogGrid setActive={setActive}/> } />
+        { <Route path="*" element={<NoRoute/>}/>   }
       </Routes>
       <Footer />
       <div  className=" take_up ">

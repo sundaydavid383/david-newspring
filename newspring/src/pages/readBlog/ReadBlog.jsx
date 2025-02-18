@@ -978,7 +978,7 @@ const ReadBlog = ({setActive}) => {
             <h2>Lastest Blogs</h2>
             <div className="related_post_cards">
               {recPost.map((post) => (
-                <Link to={`/readblog/${post.id}`} onClick={()=>window.location.href = `/readblog/${post.id}`} key={post.id} className="related_card">
+                <Link to={`/readblog/${post.id}`} onClick={()=> window.scrollBy({ top: -400, behavior: "smooth" })} key={post.id} className="related_card">
                   <div className="related_card_image">
                     <img src={post.image} alt="" />
                   </div>
